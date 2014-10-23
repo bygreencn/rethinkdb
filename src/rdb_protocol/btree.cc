@@ -24,6 +24,7 @@
 #include "containers/archive/buffer_group_stream.hpp"
 #include "containers/archive/buffer_stream.hpp"
 #include "containers/scoped.hpp"
+#include "rdb_protocol/datum_builder.hpp"
 #include "rdb_protocol/geo/exceptions.hpp"
 #include "rdb_protocol/geo/indexing.hpp"
 #include "rdb_protocol/blob_wrapper.hpp"

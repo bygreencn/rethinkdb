@@ -3,6 +3,7 @@
 
 #include <string>
 
+#include "rdb_protocol/datum_builder.hpp"
 #include "rdb_protocol/real_table.hpp"
 #include "rdb_protocol/btree.hpp"
 #include "rdb_protocol/error.hpp"
@@ -280,4 +281,3 @@ counted_t<term_t> make_sindex_rename_term(compile_env_t *env, const protob_t<con
 
 
 } // namespace ql
-

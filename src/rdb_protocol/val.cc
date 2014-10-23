@@ -2,6 +2,7 @@
 #include "rdb_protocol/val.hpp"
 
 #include "containers/name_string.hpp"
+#include "rdb_protocol/datum_builder.hpp"
 #include "rdb_protocol/math_utils.hpp"
 #include "rdb_protocol/env.hpp"
 #include "rdb_protocol/func.hpp"

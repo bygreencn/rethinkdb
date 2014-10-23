@@ -3,6 +3,7 @@
 
 #include <re2/re2.h>
 
+#include "rdb_protocol/datum_builder.hpp"
 #include "rdb_protocol/error.hpp"
 #include "rdb_protocol/op.hpp"
 

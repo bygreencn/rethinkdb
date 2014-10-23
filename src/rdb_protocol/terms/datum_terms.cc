@@ -3,6 +3,7 @@
 
 #include <string>
 
+#include "rdb_protocol/datum_builder.hpp"
 #include "rdb_protocol/op.hpp"
 
 namespace ql {

@@ -1,6 +1,7 @@
 // Copyright 2010-2013 RethinkDB, all rights reserved.
 #include "rdb_protocol/terms/terms.hpp"
 
+#include "rdb_protocol/datum_builder.hpp"
 #include "rdb_protocol/op.hpp"
 #include "rdb_protocol/error.hpp"
 

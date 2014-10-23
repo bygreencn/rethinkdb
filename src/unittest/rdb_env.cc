@@ -1,6 +1,7 @@
 // Copyright 2010-2013 RethinkDB, all rights reserved.
 #include "unittest/rdb_env.hpp"
 
+#include "rdb_protocol/datum_builder.hpp"
 #include "rdb_protocol/func.hpp"
 #include "rdb_protocol/real_table.hpp"
 

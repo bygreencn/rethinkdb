@@ -1,6 +1,7 @@
 // Copyright 2010-2014 RethinkDB, all rights reserved
 #include "rdb_protocol/real_table.hpp"
 
+#include "rdb_protocol/datum_builder.hpp"
 #include "rdb_protocol/geo/ellipsoid.hpp"
 #include "rdb_protocol/geo/distances.hpp"
 #include "rdb_protocol/context.hpp"
@@ -362,4 +363,3 @@ void real_table_t::write_with_profile(ql::env_t *env, write_t *write,
     /* Append the results of the profile to the current task */
     splitter.give_splits(response->n_shards, response->event_log);
 }
-

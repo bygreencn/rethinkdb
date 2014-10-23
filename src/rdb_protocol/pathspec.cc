@@ -1,6 +1,7 @@
 // Copyright 2010-2013 RethinkDB, all rights reserved.
 #include "rdb_protocol/pathspec.hpp"
 
+#include "rdb_protocol/datum_builder.hpp"
 #include "rdb_protocol/term.hpp"
 
 namespace ql {

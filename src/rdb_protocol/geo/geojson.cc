@@ -5,6 +5,7 @@
 #include <vector>
 
 #include "containers/scoped.hpp"
+#include "rdb_protocol/datum_builder.hpp"
 #include "rdb_protocol/datum_string.hpp"
 #include "rdb_protocol/geo/exceptions.hpp"
 #include "rdb_protocol/geo/geo_visitor.hpp"
@@ -405,4 +406,3 @@ void validate_geojson(const ql::datum_t &geojson) {
     validator_t validator;
     visit_geojson(&validator, geojson);
 }
-

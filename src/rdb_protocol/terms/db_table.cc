@@ -5,6 +5,7 @@
 #include <string>
 
 #include "containers/name_string.hpp"
+#include "rdb_protocol/datum_builder.hpp"
 #include "rdb_protocol/datum_string.hpp"
 #include "rdb_protocol/op.hpp"
 #include "rdb_protocol/pseudo_geometry.hpp"

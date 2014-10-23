@@ -3,6 +3,7 @@
 
 #include <limits>
 
+#include "rdb_protocol/datum_builder.hpp"
 #include "rdb_protocol/geo/exceptions.hpp"
 #include "rdb_protocol/op.hpp"
 #include "rdb_protocol/pseudo_time.hpp"
